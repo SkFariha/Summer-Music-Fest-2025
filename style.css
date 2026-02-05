@@ -1,0 +1,62 @@
+/* Body Styling */
+body {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 90vw; /* 90% of viewport width */
+  min-height: calc(100vh - 100px); /* 100% viewport height minus 50px top and 50px bottom padding */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdf6e3;
+  color: #333;
+  text-align: center;
+}
+
+/* Header Styling */
+header img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin-top: 20px;
+  font-size: 2.8rem;
+  color: #2c3e50;
+  letter-spacing: 2px;
+}
+
+/* Main Sections */
+main {
+  margin-top: 40px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(44, 62, 80, 0.1);
+  text-align: left;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Horizontal Rule Styling */
+hr {
+  width: 80%;
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 30px auto;
+}
